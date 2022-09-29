@@ -4,8 +4,8 @@ import logging
 import re
 from enum import IntEnum, unique
 
-import greeclimate.network as network
-from greeclimate.exceptions import DeviceNotBoundError, DeviceTimeoutError
+import greeclimate.greeclimate.network as network
+from greeclimate.greeclimate.exceptions import DeviceNotBoundError, DeviceTimeoutError
 
 
 class Props(enum.Enum):
